@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app='angularApp'>
+  <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="controller.js"></script>
+    <meta charset="UTF-8">
+  </head>
+
+<body>
+
+<div ng-controller='prueba'>
+  <p>Input something in the input box:</p>
+  <p>Name : <input type="text" ng-model="prueba" placeholder="Ingrese un nombre"></p>
+  <h1>Hello {{nombre}} {{apellidos}}</h1>
+</div>
+
+</body>
+</html>
