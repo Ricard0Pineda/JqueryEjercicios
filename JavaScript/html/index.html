@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Número mágico</title>
+	<script src="../js/numeromagico.js"></script>
+</head>
+<body>
+	<div style="width: 250px; text-align: justify">
+		Este es un pequeño juego que consiste en adivinar un número que se genera aleatoriamente, la idea consiste en encontrarlo con la menor cantidad de intentos, no te preocupes te ayudaremos un poco.
+	</div>
+	<br>
+	<div>
+		<label for="numeroUsuario">Ingresa el número</label>
+		<input type="text" id="numeroUsuario"/>
+		<input type="button" id="ir" value="Probar mi suerte" onclick="revisar()">
+		<input type="button" id="again" value="Jugar de nuevo" onclick="again()">
+	</div>
+	<br>
+	<div>
+		<label id="mensaje"></label>
+	</div>
+</body>
+</html>
